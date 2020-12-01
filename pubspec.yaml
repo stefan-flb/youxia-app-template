@@ -1,0 +1,147 @@
+name: xw
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.1.0
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  provider: ^4.0.5
+  cupertino_icons: ^0.1.2
+  flutter_screenutil: ^1.0.2
+  shared_preferences: ^0.5.4+81f3870be
+  event_bus: ^1.1.1
+  percent_indicator: ^2.1.1+1
+  flutter_picker: ^1.1.0 # 修改过 横屏溢出  外层加了 SingleChildScrollView
+  date_format: ^1.0.8
+  dio: ^3.0.9
+  flutter_html: ^0.11.1
+  flutter_swiper: ^1.1.6
+  marquee_flutter: ^0.1.4
+  image_picker: ^0.6.4
+  url_launcher: ^5.4.5
+  flutter_slidable: ^0.5.4
+  fluttertoast: ^4.0.1
+  flutter_easyloading: ^1.1.3
+  r_upgrade: ^0.2.5
+  permission_handler: ^4.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see theflutter upgrade
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - images/tem/tem_01.png
+    - images/tem/tem_02.png
+    - images/tem/tem_03.png
+    - images/home/bottom_home.png
+    - images/home/bottom_my.png
+    - images/home/bottom_service.png
+    - images/home/bottom_wallte.png
+    - images/home/banner_01.jpg
+    - images/home/banner_02.jpg
+    - images/home/index_01.png
+    - images/home/index_02.png
+    - images/home/index_03.png
+    - images/home/index_04.png
+    - images/home/index_05.png
+    - images/home/index_06.png
+    - images/home/index_07.png
+    - images/home/index_08.png
+    - images/home/index_09.png
+    - images/home/index_close.png
+    - images/home/update.png
+    - images/my/my_1.png
+    - images/my/my_2.png
+    - images/my/my_3.png
+    - images/my/my_4.png
+    - images/my/my_5.png
+    - images/my/my_6.png
+    - images/my/my_7.png
+    - images/my/my_8.png
+    - images/my/level_01.png
+    - images/my/level_02.png
+    - images/my/my_8.png
+    - images/myWallet/wallet_01.png
+    - images/myWallet/wallet_02.png
+    - images/myWallet/wallet_02_2.png
+    - images/myWallet/wallet_03.png
+    - images/myWallet/wallet_04.png
+    - images/myWallet/wallet_05.png
+    - images/myWallet/wallet_06.png
+    - images/myWallet/wallet_07.png
+    - images/myWallet/wallet_08.png
+    - images/myWallet/wallet_09.png
+    - images/myWallet/alipay.png
+    - images/myWallet/wechat.png
+    - images/myWallet/bank.png
+    - images/myWallet/bndBank_01.png
+    - images/myWallet/bank_01.png
+    - images/myWallet/bank_02.png
+    - images/myWallet/transformation.png
+    - images/myWallet/calendar.png
+    - images/service/service_01.png
+    - images/service/service_02.png
+    - images/service/service_03.png
+    - images/service/service_04.png
+    - images/service/service_05.png
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

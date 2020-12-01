@@ -1,0 +1,10 @@
+{
+  "name": "xw",
+  "version": "1.0.0",
+  "dependencies": {
+    "jsencrypt": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
